@@ -1,7 +1,7 @@
 PODS:
   - IQKeyboardManager (4.0.13)
   - Masonry (1.1.0)
-  - StaticVC (1.0.0.1):
+  - StaticVC (1.0.0.2):
     - IQKeyboardManager (~> 4.0.3)
     - Masonry (~> 1.1.0)
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  StaticVC: 1ca676fa4b266f402218e87655720e26ccdc458d
+  StaticVC: ead45ed8a4228e823a06799f21936ba2067ba526
 
 PODFILE CHECKSUM: 38356148403d4379df9a022793065e69ce0310da
 

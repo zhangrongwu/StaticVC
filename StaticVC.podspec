@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StaticVC'
-  s.version          = '1.0.0.1'
+  s.version          = '1.0.0.2'
   s.summary          = 'A short description of StaticVC.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'StaticVC' => ['StaticVC/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'StaticVC/Headers/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'Masonry',  '~> 1.1.0'
   s.dependency 'IQKeyboardManager',  '~> 4.0.3'

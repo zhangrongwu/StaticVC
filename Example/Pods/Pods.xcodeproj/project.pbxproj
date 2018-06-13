@@ -16,17 +16,13 @@
 		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EA58E5993CC23F8598BB0B18926F42 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE4F0041245BDD4F3A8D96D0BEE846 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C87D05EF73EC0C1512F1C646DA73D99 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		114DA45F44800BB9DFAAC2E8A6CF58A7 /* ENSettingInputItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 128D5C5F0EB076388B9A2C2EFDD1DC18 /* ENSettingInputItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFA6B22B4CF86A9301B5430C6D53890 /* ENSettingArrowItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 145C56CFF09CDBEE61F82B63ED03DA09 /* ENSettingArrowItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2781F95004F06AD52E83E3C7115929F6 /* UIKit.framework */; };
-		1263BF473EEB69F5C255D66AC2BB0065 /* ENSettingSwitchItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C82BB27C6092DFF11D0CC0E9F5DC2E14 /* ENSettingSwitchItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1272F071D11EFD3133246140B9A8130D /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC304EFAD67FCA07BCB44C6CC1A68EB /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1552F120735278D5FAD583F472B2A5FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2781F95004F06AD52E83E3C7115929F6 /* UIKit.framework */; };
-		171A6E62226CD3F4E61BE3216563E1E5 /* ENSettingNoneItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8674C3B1D671204D690C7B49D6AA6D /* ENSettingNoneItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		176606F1B1CFF771EE0616F063AA8B5E /* ENCommonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDBFB6E5E424F1AD2125E65B26700F /* ENCommonGroup.m */; };
-		1B4222E50F270BB9C4B0CFBE67042926 /* ENSettingArrowItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 145C56CFF09CDBEE61F82B63ED03DA09 /* ENSettingArrowItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CC51934A754E75D018F145858DD3576 /* Pods-StaticVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BD0AA9854CDF1DD62AC0648C29EB4F /* Pods-StaticVC_Tests-dummy.m */; };
 		1F577639E23D40CE1EF0C2F120D4BFBC /* StaticVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D9DF09C6EBB995F15B985D6CF62F1 /* StaticVC-dummy.m */; };
-		1F97CC02C6A458B14AC80CBEEDE7460A /* ENCommonGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2D4951D65DEDF38E730A2B4D4A6DF1 /* ENCommonGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FAF936145744EF7FBEBD2B1CCF20430 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5010BD68D83BB5686FA0AB73469057E2 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25ECD347263E92187AAC695330C947FC /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = F5317E7FF2963FF860DD145F03FED0FD /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26304368C8FB546F1C46FDC615E22110 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6C212B9C13AABCA6A729AB47B8410D /* IQKeyboardManager.framework */; };
@@ -35,7 +31,7 @@
 		2AB58764BA068029F6C40833BFEFC7EF /* ENSettingNoneItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F054D936DC41910399BFF55FF9815 /* ENSettingNoneItem.m */; };
 		2C3810EA6835375432A233E79C028A4F /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DFD4009CFF51EFF3F103695E0890145 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CA45B0F7175C884633BBE0ADEA5AC9E /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 948CB840C92427C4E6B358F455CFE25B /* IQUIView+IQKeyboardToolbar.m */; };
-		33DC4BFB894C1A85E2702A29BB2890E4 /* ENNormailItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAADA1B51E71156085FC7F8AA826406 /* ENNormailItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3941E00DB8EDFC6B553D6319D15A298F /* ENSettingSwitchItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C82BB27C6092DFF11D0CC0E9F5DC2E14 /* ENSettingSwitchItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3DD5A26B210989F539F9ECFFB69DE28C /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = D888EDD5BF3B97471C989F7E1BF5C270 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4038043C59716B9CF815AD87E8CF2DB0 /* Pods-StaticVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 310ADA2B7D306BD8AAFA96F4ACE3846F /* Pods-StaticVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43A13857E50F9C3AEB5AF283FD77FF97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2781F95004F06AD52E83E3C7115929F6 /* UIKit.framework */; };
@@ -44,7 +40,6 @@
 		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDB1957FCC4DC025EAFF6AF9A1DA5DC /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE5C0419FA9BE9C1BFDC56222E382FC /* Foundation.framework */; };
 		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABE0BFE20F3E3333D09D8DBAD769079 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EFC68481973A486D3E791207CFEC5FF /* ENCommonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D41F2C0F0B0C58EAE41340E5F48DF19 /* ENCommonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5337BC4C83A056BD8023DA78F0B92E77 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2656957051A9279F1B147A5AEA8DE7B /* IQBarButtonItem.m */; };
 		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A759DF885E2AEB4AB2260A4DBA43A9 /* MASCompositeConstraint.m */; };
 		55AA601B4FB9DBC77E46B1CEACC805DA /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D615A6853A95A5D08A36580C536352B0 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,13 +56,16 @@
 		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4589665635C2542B12E8F1F595A6AB /* MASViewConstraint.m */; };
 		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 196FBC20D75215375E5A2A7CBB3B02F0 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DD82A159879063584B82B1AB8F9D451 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9D19FB06E3945C14747484981E943 /* IQUIView+Hierarchy.m */; };
+		83132EDBB4DC05440DEE8B7278ED131C /* ENCommonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D41F2C0F0B0C58EAE41340E5F48DF19 /* ENCommonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		843C45E4A6B05D1D93C81DD5B098CE4C /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B408803C68B3F7981C7787695622FA /* IQKeyboardManager.m */; };
+		8475125BFFD2F36A177E5EC8783D68A5 /* ENSettingNoneItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8674C3B1D671204D690C7B49D6AA6D /* ENSettingNoneItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		863288DB4FB9DC2F1F72C62A6FB767DA /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CC78B98F778DB3720BF16279A672B987 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		865197D7FB42B35DC31F97DA4DADC837 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4402156440DB55BA898C503981A2A /* QuartzCore.framework */; };
 		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F5FBBA039870929585981DBDD39A83 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 880578623BE6CD911399B3D06F5F4611 /* ViewController+MASAdditions.m */; };
 		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E536F07B9FA74B0230B5FB4009BC6DD /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D640E251478B391EA5CDCAE4D79ABDB /* StaticVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6692C966FD85FB4743CAB543E6977D /* StaticVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFE3633D6B5558D0CEDD2C83C9C1169 /* ENSettingInputItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 128D5C5F0EB076388B9A2C2EFDD1DC18 /* ENSettingInputItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9609A264886C31808EDCFDF102A3BD6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE5C0419FA9BE9C1BFDC56222E382FC /* Foundation.framework */; };
 		9B8578CF6065F8E210E5DB4C95332ACE /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B809A7C94FC3EA223F2A82899443CB6D /* IQTitleBarButtonItem.m */; };
 		9EDB0329A6537E5BBE31AB98991065B4 /* ENSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E546C00FE6BA4F4F8ED23600B6A5EBFA /* ENSettingSwitchItem.m */; };
@@ -85,7 +83,9 @@
 		BE8B20C4EB234EF3A9DADB0365221E6D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5305C73C7FD7724F0F056890F9485CF /* IQKeyboardManager.bundle */; };
 		C08CF139E840036BCBF23CE60E10F183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE5C0419FA9BE9C1BFDC56222E382FC /* Foundation.framework */; };
 		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B92CF5CD1499789B6C3A67F3117CAFB2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4E4C7A06A1A6B3A3169D3E2756B9C25 /* ENNormailItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAADA1B51E71156085FC7F8AA826406 /* ENNormailItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A06E12E219FC77D70960EC91ED75338 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9ACE4CC345C106F4CC4E6AB1C5C585F /* ENCommonGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2D4951D65DEDF38E730A2B4D4A6DF1 /* ENCommonGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6F89D58352CCEBB4C50B3FE3736231 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD29C12D4D084E694D9A348198CF6611 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E9E58920C5444135AC74D7CD45ABF /* IQNSArray+Sort.m */; };
 		D20F8061A93FBAE67BCE02F64C666D3D /* Pods-StaticVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D58954A2C56B5CE86EF8C7CB1B805AB7 /* Pods-StaticVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -641,13 +641,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F97CC02C6A458B14AC80CBEEDE7460A /* ENCommonGroup.h in Headers */,
-				4EFC68481973A486D3E791207CFEC5FF /* ENCommonItem.h in Headers */,
-				33DC4BFB894C1A85E2702A29BB2890E4 /* ENNormailItem.h in Headers */,
-				1B4222E50F270BB9C4B0CFBE67042926 /* ENSettingArrowItem.h in Headers */,
-				114DA45F44800BB9DFAAC2E8A6CF58A7 /* ENSettingInputItem.h in Headers */,
-				171A6E62226CD3F4E61BE3216563E1E5 /* ENSettingNoneItem.h in Headers */,
-				1263BF473EEB69F5C255D66AC2BB0065 /* ENSettingSwitchItem.h in Headers */,
+				C9ACE4CC345C106F4CC4E6AB1C5C585F /* ENCommonGroup.h in Headers */,
+				83132EDBB4DC05440DEE8B7278ED131C /* ENCommonItem.h in Headers */,
+				C4E4C7A06A1A6B3A3169D3E2756B9C25 /* ENNormailItem.h in Headers */,
+				0FFA6B22B4CF86A9301B5430C6D53890 /* ENSettingArrowItem.h in Headers */,
+				8DFE3633D6B5558D0CEDD2C83C9C1169 /* ENSettingInputItem.h in Headers */,
+				8475125BFFD2F36A177E5EC8783D68A5 /* ENSettingNoneItem.h in Headers */,
+				3941E00DB8EDFC6B553D6319D15A298F /* ENSettingSwitchItem.h in Headers */,
 				B06461B765C9D17D5B6299410B8ED0E1 /* ENStaticVCHeader.h in Headers */,
 				8D640E251478B391EA5CDCAE4D79ABDB /* StaticVC-umbrella.h in Headers */,
 			);

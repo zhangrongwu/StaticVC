@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'StaticVC' => ['StaticVC/Assets/*.png']
   # }
 
-  s.public_header_files = 'StaticVC/**/**/*.h'
+  s.public_header_files = 'StaticVC/Headers/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'Masonry',  '~> 1.1.0'
   s.dependency 'IQKeyboardManager',  '~> 4.0.3'

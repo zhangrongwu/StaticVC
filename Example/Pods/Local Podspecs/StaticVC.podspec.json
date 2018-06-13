@@ -19,7 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "StaticVC/**/*.{h,m,bundle}",
-  "public_header_files": "StaticVC/Headers/*.h",
+  "public_header_files": "StaticVC/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "Masonry": [

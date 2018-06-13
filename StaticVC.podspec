@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'StaticVC'
   s.version          = '1.0.0.3'
-  s.summary          = 'A short description of StaticVC.'
+  s.summary          = '简单的cell使用'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "项目开发过程中快速的进行静态cell的添加"
 
   s.homepage         = 'https://github.com/zhangrongwu/StaticVC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

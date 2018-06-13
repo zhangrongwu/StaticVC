@@ -61,9 +61,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7175BAF98808E2E15483FCFB /* Pods_StaticVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaticVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8EC43EDD31FA19AB156B3324 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A45CB79285D898D798EEC4E3 /* StaticVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StaticVC.podspec; path = ../StaticVC.podspec; sourceTree = "<group>"; };
-		C27DC6C51DF869696F73C8DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8EC43EDD31FA19AB156B3324 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A45CB79285D898D798EEC4E3 /* StaticVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StaticVC.podspec; path = ../StaticVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C27DC6C51DF869696F73C8DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF7883765FE97E0984E5F889 /* Pods-StaticVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticVC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticVC_Example/Pods-StaticVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E37C1EE92C6402DB11B46EFB /* Pods-StaticVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticVC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticVC_Tests/Pods-StaticVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F27D2FACE898E9D8CA6F6BCA /* Pods-StaticVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticVC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticVC_Example/Pods-StaticVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -337,10 +337,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-StaticVC_Example/Pods-StaticVC_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/StaticVC/StaticVC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StaticVC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StaticVC/StaticVC-Prefix.pch";
 				INFOPLIST_FILE = "StaticVC/StaticVC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StaticVC/StaticVC-Prefix.pch";
 				INFOPLIST_FILE = "StaticVC/StaticVC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

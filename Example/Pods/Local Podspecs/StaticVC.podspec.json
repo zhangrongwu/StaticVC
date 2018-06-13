@@ -1,0 +1,32 @@
+{
+  "name": "StaticVC",
+  "version": "1.0.0.1",
+  "summary": "A short description of StaticVC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangrongwu/StaticVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangrongwu": "zhangrongwuios@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangrongwu/StaticVC.git",
+    "tag": "1.0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StaticVC/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "IQKeyboardManager": [
+      "~> 4.0.3"
+    ]
+  }
+}

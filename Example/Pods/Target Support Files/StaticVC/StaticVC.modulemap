@@ -1,0 +1,6 @@
+framework module StaticVC {
+  umbrella header "StaticVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

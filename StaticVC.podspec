@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'StaticVC/Classes/**/*'
+  s.source_files = 'StaticVC/**/**/*'
   
   # s.resource_bundles = {
   #   'StaticVC' => ['StaticVC/Assets/*.png']
   # }
 
-  s.public_header_files = 'StaticVC/Headers/**/*.h'
+  s.public_header_files = 'StaticVC/**/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'Masonry',  '~> 1.1.0'
   s.dependency 'IQKeyboardManager',  '~> 4.0.3'

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		427278C020D0D23600DF3BD8 /* ENDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427278BF20D0D23600DF3BD8 /* ENDemoViewController.m */; };
+		427278C420D0DA2700DF3BD8 /* ENBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 427278C320D0DA2700DF3BD8 /* ENBaseTableViewCell.m */; };
 		49EDCD39403D3FB9815A9A33 /* Pods_StaticVC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325D77C6E9402E77145061B8 /* Pods_StaticVC_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +41,10 @@
 /* Begin PBXFileReference section */
 		193FA41208C12C013CF27002 /* Pods-StaticVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticVC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticVC_Tests/Pods-StaticVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		325D77C6E9402E77145061B8 /* Pods_StaticVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaticVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		427278BE20D0D23600DF3BD8 /* ENDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENDemoViewController.h; sourceTree = "<group>"; };
+		427278BF20D0D23600DF3BD8 /* ENDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENDemoViewController.m; sourceTree = "<group>"; };
+		427278C220D0DA2700DF3BD8 /* ENBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENBaseTableViewCell.h; sourceTree = "<group>"; };
+		427278C320D0DA2700DF3BD8 /* ENBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENBaseTableViewCell.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* StaticVC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticVC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		427278C120D0DA0100DF3BD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				427278C220D0DA2700DF3BD8 /* ENBaseTableViewCell.h */,
+				427278C320D0DA2700DF3BD8 /* ENBaseTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +147,14 @@
 		6003F593195388D20070C39A /* Example for StaticVC */ = {
 			isa = PBXGroup;
 			children = (
+				427278C120D0DA0100DF3BD8 /* Views */,
 				6003F59C195388D20070C39A /* ENAppDelegate.h */,
 				6003F59D195388D20070C39A /* ENAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ENViewController.h */,
 				6003F5A6195388D20070C39A /* ENViewController.m */,
+				427278BE20D0D23600DF3BD8 /* ENDemoViewController.h */,
+				427278BF20D0D23600DF3BD8 /* ENDemoViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -359,6 +377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427278C020D0D23600DF3BD8 /* ENDemoViewController.m in Sources */,
+				427278C420D0DA2700DF3BD8 /* ENBaseTableViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* ENAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ENViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

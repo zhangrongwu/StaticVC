@@ -12,9 +12,12 @@
 
 #import "ENNormailItem.h"
 #import "ENSettingArrowItem.h"
+#import "ENSettingInputItem.h"
+#import "ENSettingNoneItem.h"
 #import "ENSettingSwitchItem.h"
 #import "ENCommonGroup.h"
 #import "ENCommonItem.h"
+#import "ENStaticVCHeader.h"
 
 FOUNDATION_EXPORT double StaticVCVersionNumber;
 FOUNDATION_EXPORT const unsigned char StaticVCVersionString[];

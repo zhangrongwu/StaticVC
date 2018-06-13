@@ -3,10 +3,10 @@
 #该脚本仅适用于cocoapods生成的framework静态库
 frameworkName='StaticVC'
 #修改
-oldversion='1.0.0.1'
+oldversion='1.0.0.2'
 #修改
-version='1.0.0.2'
-message='${version}版本测试pod发布'
+version='1.0.0.3'
+message='${version}自定义固定布局cell，持续添加'
 
 cd Example
 pod install

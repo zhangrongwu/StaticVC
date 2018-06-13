@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'StaticVC/**/**/*'
+  s.source_files = 'StaticVC/**/*.{h,m,bundle}'
   
   # s.resource_bundles = {
   #   'StaticVC' => ['StaticVC/Assets/*.png']

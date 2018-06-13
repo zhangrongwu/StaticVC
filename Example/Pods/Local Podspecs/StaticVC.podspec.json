@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "StaticVC/**/**/*",
+  "source_files": "StaticVC/**/*.{h,m,bundle}",
   "public_header_files": "StaticVC/Headers/*.h",
   "frameworks": "UIKit",
   "dependencies": {
